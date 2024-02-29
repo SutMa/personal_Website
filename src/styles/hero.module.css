@@ -1,0 +1,37 @@
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.root{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+#desktop{
+    width: 45%;
+    padding-left: 1%;
+}
+
+.about{
+    width: 40%;
+    padding-right: 1%;
+}
+
+#aboutP{
+    line-height: 2;
+}
+
+
+
+span{
+    color: #0051bb;
+}
+
+
