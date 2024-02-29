@@ -13,8 +13,9 @@ function Hero() {
             setIndex((prevIndex) => (prevIndex + 1) % texts.length);
         }, 3000); // Change text every 3 seconds
 
+        // Cleanup function to clear the interval
         return () => clearInterval(intervalId);
-    }, []);
+    }, [texts.length]); // Include texts.length to ensure useEffect responds to changes in texts array length
 
     return (
         <div className={styles.root} id='about'>
