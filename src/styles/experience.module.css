@@ -3,6 +3,7 @@
     justify-content: center;
     background-color: #d3e6ff;
     padding: 3%;
+    margin-top: 3%;
 }
 
 .container {
@@ -27,7 +28,7 @@
     width: 33%; 
     padding: 2%;
     line-height: 1.8;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     text-align: center;
 }
@@ -38,4 +39,26 @@ h3{
 
 p{
     margin-top: 0;
+}
+
+
+@media (max-width:900px){
+    .exp{
+        flex-direction: column;
+    
+    }
+
+    .exp1, .exp2, .exp3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        padding: 2%;
+        line-height: 1.8;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        text-align: center;
+        margin: 2%;
+    }
 }

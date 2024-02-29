@@ -21,14 +21,43 @@ ul{
     width: 70%;
 }
 
-#moon{
-    width: 48px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-}
-
 .root{
    display: flex;
    justify-content: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Hide the checkbox visually but keep it in the document flow */
+.navToggle {
+    display: none;
+}
+
+/* Initial state: hide navbar items on small screens */
+@media (max-width: 768px) {
+    #container ul {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        top: 60px; /* Adjust this value based on the size of your logo */
+    }
+
+    /* Display navbar items when checkbox is checked */
+    #nav-toggle:checked ~ #container ul {
+        display: flex;
+    }
+
+    #container label {
+        display: block; /* Make sure the label is clickable */
+        cursor: pointer;
+    }
+
+    #container {
+        justify-content: center;
+        align-items: center;
+    }
 }

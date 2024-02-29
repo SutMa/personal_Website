@@ -17,7 +17,7 @@ function Hero() {
     }, []);
 
     return (
-        <div className={styles.root}>
+        <div className={styles.root} id='about'>
             <div className={styles.container}>
                 <div className={styles.about}>
                     <h3>Welcome!</h3>

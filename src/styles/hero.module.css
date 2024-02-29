@@ -15,17 +15,17 @@
 }
 
 #desktop{
-    width: 45%;
-    padding-left: 1%;
+    width: 50%;
+
 }
 
 .about{
-    width: 40%;
-    padding-right: 1%;
+    width: 50%;
 }
 
 #aboutP{
     line-height: 2;
+    padding: none;
 }
 
 
@@ -35,3 +35,16 @@ span{
 }
 
 
+@media (max-width: 900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        width: fit-content;
+    }
+    #desktop{
+        width: 100%;
+    
+    }
+}

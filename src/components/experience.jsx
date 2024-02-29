@@ -3,9 +3,9 @@ import styles from '../styles/experience.module.css'
 
 function Experience(){
     return (
-        <div className={styles.root}>
+        <div className={styles.root} id='experience'>
             <div className={styles.container}>
-                <h1 style={{textAlign: `center`}}>Experience</h1>
+                <h2 style={{textAlign: `center`}}>Experience</h2>
                 <div className={styles.exp}>
                     <div className={styles.exp1}>
                         <h3>Software Engineer Intern</h3>

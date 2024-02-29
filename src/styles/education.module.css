@@ -25,3 +25,10 @@ img{
 p{
     line-height: 1;
 }
+
+@media (max-width:900px){
+    .container{
+        flex-direction: column;
+    }
+    
+}
