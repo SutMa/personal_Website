@@ -8,6 +8,12 @@
     justify-content:space-evenly;
 }
 
+a img{
+    width: 40px;
+    margin-right: 2%;
+    height: 40px;
+}
+
 .root{
    display: flex;
    flex-direction: row;

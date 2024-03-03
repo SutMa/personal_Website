@@ -4,6 +4,7 @@ import Experience from './components/experience'
 import Education from './components/education'
 import Contact from './components/contact'
 import Work from './components/work'
+import Current from './components/current'
 import React from 'react'
 
 
